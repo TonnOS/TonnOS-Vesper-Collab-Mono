@@ -1,0 +1,15 @@
+{
+  "name": "@tonnos/example-project",
+  "version": "1.0.0",
+  "description": "Example collaborative project demonstrating multi-agent workflows",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "dependencies": {
+    "@tonnos/agent-tools": "workspace:*"
+  }
+}

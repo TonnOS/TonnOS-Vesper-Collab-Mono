@@ -1,0 +1,17 @@
+{
+  "name": "@tonnos/agent-tools",
+  "version": "1.0.0",
+  "description": "Common utilities for agent collaboration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/**/*.test.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./logger": "./src/logger.js",
+    "./config": "./src/config.js",
+    "./api-client": "./src/api-client.js",
+    "./formatter": "./src/formatter.js"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@tonnos/examples",
+  "version": "1.0.0",
+  "description": "Example implementations demonstrating agent collaboration",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo-agent": "node examples/demo-agent.js",
+    "cross-agent": "node examples/cross-agent-workflow.js"
+  },
+  "dependencies": {
+    "@tonnos/agent-tools": "workspace:*"
+  }
+}
